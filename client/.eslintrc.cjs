@@ -18,4 +18,9 @@ module.exports = {
     ],
     "no-unused-vars": "off",
   },
+  globals: {
+    $: true,
+    require: true,
+    process: true,
+  },
 };
